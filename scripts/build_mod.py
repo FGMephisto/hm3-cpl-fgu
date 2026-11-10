@@ -227,7 +227,7 @@ def build_client_xml(upstream_dir: Path) -> tuple[bytes, Counter[str], int]:
         if not pack_file.is_file():
             raise FileNotFoundError(f"Missing pack database file: {pack_file}")
 
-        cat_el = ET.SubElement(item_root, "category", {"name": f"CPL - {pack_label}"})
+        cat_el = ET.SubElement(item_root, "category", {"name": pack_label})
 
         lines = [
             line for line in pack_file.read_text(encoding="utf-8").splitlines() if line.strip()

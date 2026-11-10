@@ -5,7 +5,7 @@ Converts [toastygm/hm3-cpl](https://github.com/toastygm/hm3-cpl) (Foundry VTT H�
 ## Features
 
 - Converts all **40 vendor/craft compendium packs** (**869 items**: 717 general gear items, 131 armor pieces, 21 containers) into a single FGU module (`HarnMaster3.5E_CPL.mod`).
-- Preserves vendor/guild groupings as FGU `<category>` groups (`CPL - Apothecary`, `CPL - Armorer`, `CPL - Clothier`, etc.).
+- Preserves vendor/guild groupings as FGU `<category>` groups (`Apothecary`, `Armorer`, `Clothier`, etc.).
 - Maps `armorgear` records to `HarnMaster3.5E` fields:
   - Material → `<subtype>` (`Cloth`, `Kurbul`, `Leather`, `Mail`, `Plate`, `Quilt`, `Ring`, `Scale`)
   - Protection → `<armor_blunt>`, `<armor_edge>`, `<armor_point>`, `<armor_fire>`
