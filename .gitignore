@@ -1,0 +1,14 @@
+# Build output
+dist/
+build/
+*.mod
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+
+# OS / Editor
+.DS_Store
+Thumbs.db
