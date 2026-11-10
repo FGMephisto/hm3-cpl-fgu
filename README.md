@@ -1,6 +1,6 @@
-# Hârn Comprehensive Price Lists for Fantasy Grounds Unity (`hm3-cpl-fgu`)
+# HarnMaster Comprehensive Pricelist (`hm3-cpl-fgu`)
 
-Converts [toastygm/hm3-cpl](https://github.com/toastygm/hm3-cpl) (Foundry VTT HârnMaster 3 Comprehensive Price Lists) into a Fantasy Grounds Unity (`.mod`) module for the **HarnMaster3.5E** ruleset.
+Converts [toastygm/hm3-cpl](https://github.com/toastygm/hm3-cpl) (Foundry VTT HârnMaster 3 Comprehensive Price Lists) into the **HarnMaster Comprehensive Pricelist** Fantasy Grounds Unity (`.mod`) module for the **HarnMaster3.5E** ruleset.
 
 ## Features
 
@@ -47,3 +47,4 @@ python scripts/build_mod.py
 - **Upstream Foundry Module**: [toastygm/hm3-cpl](https://github.com/toastygm/hm3-cpl) by Toasty
 - **Comprehensive Price Lists**: Scythen ([Lythia.com](https://www.lythia.com/game_aides/comprehensive-pricelist/))
 - **License**: [Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported (CC BY-NC-SA 3.0)](LICENSE)
+

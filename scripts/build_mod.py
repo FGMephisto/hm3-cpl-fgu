@@ -186,7 +186,7 @@ def convert_item(
 def build_definition_xml(upstream_version: str) -> bytes:
     """Generate definition.xml bytes for the FGU module."""
     root = ET.Element("root", ROOT_ATTRS)
-    ET.SubElement(root, "name").text = "Harn Comprehensive Price Lists"
+    ET.SubElement(root, "name").text = "HarnMaster Comprehensive Pricelist"
     ET.SubElement(root, "category").text = "Equipment"
     ET.SubElement(root, "author").text = f"Toasty / Scythen (hm3-cpl v{upstream_version}, FGU conversion)"
     ET.SubElement(root, "ruleset").text = "HarnMaster3.5E"
@@ -197,9 +197,9 @@ def build_definition_xml(upstream_version: str) -> bytes:
 def build_library_section(root: ET.Element) -> None:
     """Add <library> index entry so the module appears in FGU's Library window."""
     lib = ET.SubElement(root, "library")
-    mod_node = ET.SubElement(lib, "harnmaster35ecpl", {"static": "true"})
+    mod_node = ET.SubElement(lib, "harnmastercomprehensivepricelist", {"static": "true"})
     add_typed_elem(mod_node, "categoryname", "string", "Equipment")
-    add_typed_elem(mod_node, "name", "string", "harnmaster35ecpl")
+    add_typed_elem(mod_node, "name", "string", "harnmastercomprehensivepricelist")
 
     entries = ET.SubElement(mod_node, "entries")
     item_entry = ET.SubElement(entries, "item")
