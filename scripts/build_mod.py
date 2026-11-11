@@ -43,6 +43,292 @@ VALID_ARMOR_MATERIALS: set[str] = {
     "Plate",
 }
 
+WATERBORNE_VEHICLES: dict[str, str] = {
+    "Canoe (1-2 crew, 500 lb. cap.)": "Canoe",
+    "Kayak (1 crew, 250 lb. cap.)": "Kayak",
+}
+
+DRAWN_VEHICLES: set[str] = {
+    "Dogsled, one-man",
+    "Hand Cart",
+    "Jig, two-man",
+    "Palanquin",
+    "Sled, child’s",
+    "Toboggan",
+    "Wheelbarrow",
+}
+
+TACK_AND_HARNESS_ITEMS: set[str] = {
+    "Blanket, horse",
+    "Bridle",
+    "Collar, horse",
+    "Harness, Horse",
+    "Harness, Ox",
+    "Pack Harness",
+    "Saddle Bag",
+    "Saddle, Riding",
+    "Saddle, War",
+    "Yoke, Ox",
+}
+
+MUSICAL_INSTRUMENT_PACKS: set[str] = {
+    "Harper",
+}
+
+MUSICAL_INSTRUMENT_ITEMS: set[str] = {
+    "Clappers, bone",
+}
+
+NAVIGATOR_TOOLS_PACKS: set[str] = {
+    "Pilot",
+}
+
+THIEVES_TOOLS_ITEMS: set[str] = {
+    "Hardwood Strips, pack of 12",
+    "Hooked wires, pack of 12",
+    "Lock craft Kit, portable",
+    "Lock pick Kit, large",
+    "Lock pick Kit, small",
+    "Lock picks, long, pack of 12",
+    "Lock picks, short, pack of 12",
+    "Mirror, small",
+    "Probes, long, pack of 12",
+}
+
+GAMING_SET_ITEMS: set[str] = {
+    "Dice, pack of 6",
+    "Gaming Pieces, 1 in., per dozen",
+    "Marbles, Glass, pack of 12",
+    "Marbles, Stone, pack of 12",
+    "Marbles, glass, pack of 12",
+}
+
+ARTISAN_TOOLS_ITEMS: set[str] = {
+    "Adze",
+    "Axe, Feller’s",
+    "Axe, Wood",
+    "Bradawl",
+    "Branding Iron",
+    "Carpentry Kit, portable",
+    "Chisel",
+    "Coin Balance",
+    "Cooking Kit, portable",
+    "Crowbar",
+    "File, jeweler’s",
+    "File, metal",
+    "First aid bag w/ instruments",
+    "Fishing Kit, portable",
+    "Hammer, blacksmith’s",
+    "Hammer, carpenter’s",
+    "Hammer, jeweler’s",
+    "Hand drill",
+    "Hatchet, wood",
+    "Hideworking Kit, portable",
+    "Hoe",
+    "Jeweler's File",
+    "Jeweler's Hammer",
+    "Jeweler's Pliers",
+    "Jeweler's Scales",
+    "Jeweler's Tweezers",
+    "Mortar and Pestle, unglazed stoneware",
+    "Pick, miner’s",
+    "Pincers, carpenter’s",
+    "Pitchfork",
+    "Pliers, jeweler’s",
+    "Plough, metal blade",
+    "Saw, 2-person",
+    "Saw, keyhole",
+    "Saw, metal",
+    "Scales & Weights",
+    "Scythe",
+    "Sickle",
+    "Spade/Shovel",
+    "Textile craft kit",
+    "Tongs, blacksmith’s",
+    "Tweezers, jeweler’s",
+    "Wedge, splitting",
+    "Wedge, staying",
+    "Whetstone",
+    "Woodcarving Kit, portable",
+    "Writing Kit, portable",
+}
+
+HERB_ITEMS: set[str] = {
+    "Alanal (Hallucinogen)",
+    "Arva (Strength)",
+    "Berilik (Anesthetic)",
+    "Doshenkana (Poison)",
+    "Elprequir (Aphrodisiac)",
+    "Fanosel (Narcotic)",
+    "Fletharane (Hallucinogen)",
+    "Gaethipa (Poison)",
+    "Habsulara (Intelligence)",
+    "Herb, Common, per oz.",
+    "Herb, Rare, per oz.",
+    "Herb, Uncommon, per oz.",
+    "Herb, Very Rare, per oz.",
+    "Hreyochor (Fertility)",
+    "Joldraiven (Equine Stimulant)",
+    "Kargele (Healing)",
+    "Lavaryctia (Sopoforic)",
+    "Leortevald (Poison)",
+    "Olrui / Monogium (Stimulant)",
+    "Perigwar (Aphrodisiac)",
+    "Pipe weed",
+    "Quessel (Antidote)",
+    "Rasakile (Contraceptive)",
+    "Stiltrassa (Emetic)",
+    "Tasparth (Ordeal Drug)",
+    "Teranya (Eye Cure)",
+    "Tirgaeth (Narcotic)",
+    "Wylorafina (Poison)",
+    "Yulpris (Universal Antidote)",
+}
+
+MEDICAL_ITEMS: set[str] = {
+    "Bandages, per injury level",
+    "First aid bag w/ instruments",
+    "Herbal Ointments, per injury level",
+    "Sutures, per injury level",
+}
+
+VEHICLE_COMPONENT_ITEMS: set[str] = {
+    "Anchor, large",
+    "Anchor, small",
+    "Axle",
+    "Axle, wagon",
+    "Mast per ft",
+    "Oar, kayak",
+    "Oar, normal",
+    "Ski pole",
+    "Skis, wooden, per pair",
+    "Wheel",
+    "Wheel, Ironbound",
+}
+
+LIGHTING_ITEMS: set[str] = {
+    "Candle Holder",
+    "Candle, Calibrated",
+    "Candleholder, hand",
+    "Candles, Beeswax",
+    "Candles, Tallow",
+    "Candlestick, iron",
+    "Flask of Oil, glass",
+    "Flask of Oil, metal",
+    "Lamp, enclosed bowl",
+    "Lamp, pedestal",
+    "Lamp, simple bowl",
+    "Lamp. glass",
+    "Lantern, metal",
+    "Oil, Lamp",
+    "Tinderbox",
+    "Torch",
+}
+
+SPICE_ITEMS: set[str] = {
+    "Spice, Alum, per oz.",
+    "Spice, Ambergris",
+    "Spice, Bdellium",
+    "Spice, Bdellium, per oz.",
+    "Spice, Camphor",
+    "Spice, Camphor, per oz.",
+    "Spice, Cinnamon, per oz.",
+    "Spice, Frankincense",
+    "Spice, Ginger",
+    "Spice, Ginseng",
+    "Spice, Keddryth",
+    "Spice, Lashu Powder",
+    "Spice, Marthyn",
+    "Spice, Myrrh",
+    "Spice, Nard",
+    "Spice, Nutmeg",
+    "Spice, Pepper",
+}
+
+PROVISIONS_PACKS: set[str] = {
+    "Innkeeper",
+    "Market Butcher",
+    "Market Farmer",
+    "Market Fisherman",
+    "Market Greengrocer",
+    "Market Miller",
+    "Market Salter",
+}
+
+EXCLUDED_PROVISIONS: set[str] = {
+    "Fleece",
+    "Wool, Raw",
+    "Flax",
+    "Feathers",
+    "Hay",
+    "Fishing Kit, portable",
+}
+
+EXTRA_PROVISIONS: set[str] = {
+    "Tea",
+    "Sugar",
+    "Oil, Cooking",
+    "Fodder",
+}
+
+GEM_KEYWORDS: list[str] = [
+    "ruby", "pearl", "chrysolite", "agate", "carnelian", "jade", "topaz",
+    "emerald", "moonstone", "diamond", "opal", "sapphire", "garnet",
+    "bloodstone", "quartz", "onyx", "jet", "amber", "jankorez", "spinel"
+]
+
+METALS_KEYWORDS: list[str] = [
+    "mithral", "copper", "bronze", "steel", "pewter", "iron", "brass",
+    "lead", "gold", "silver", "tin", "zinc"
+]
+
+FURNISHING_POTTER_ITEMS: set[str] = {
+    "Amphorae / Azeryani", "Amphorae / Karejian", "Amphorae / Lerenil",
+    "Baking Dish w/ lid, large", "Baking Dish w/ lid, small", "Baking Dish, large", "Baking Dish, small",
+    "Basin, large", "Basin, small", "Bowl, serving, large", "Bowl, serving, medium", "Bowl, serving, small",
+    "Chamber Pot", "Drinking beaker", "Drinking cup", "Drinking flagon", "Drinking tankard",
+    "Jar, lidded, large", "Jar, lidded, medium", "Jar, lidded, small",
+    "Jug, large", "Jug, small", "Pan, chafing", "Pan, dripping", "Pitcher",
+    "Pipkin (pot w/ handle), large", "Pipkin (pot w/ handle), medium", "Pipkin (pot w/ handle), small",
+    "Plate, dining", "Plate, serving", "Platter", "Pot, cooking, large", "Pot, cooking, small",
+    "Pot, infusing", "Skillet", "Urn, Azeryani", "Urn, Hârnic", "Vase"
+}
+
+FURNISHING_TABLEWARE_ITEMS: set[str] = {
+    "Bowl, pewter", "Cup, pewter", "Goblet, pewter", "Plate, pewter", "Spoon, pewter", "Tankard, pewter",
+    "Flagon, wooden", "Bowl, wooden", "Plate, wooden", "Spoon, wooden", "Cup, wooden", "Tankard, wooden"
+}
+
+FURNISHING_GENERAL_ITEMS: set[str] = {
+    "Bed, bunked", "Bed, double", "Bed, four post", "Bed, short", "Bed, single",
+    "Bench", "Bookshelves", "Cabinet", "Chair", "Cot, baby’s", "Couch",
+    "Pallet, straw", "Pew, ornate", "Table", "Throne", "Tapestry"
+}
+
+TRADE_GOODS_RAW_ITEMS: set[str] = {
+    "Bone (for carving)",
+    "Fleece",
+    "Wool, Raw",
+    "Flax",
+    "Feathers",
+    "Hay",
+    "Clay Body, ready to use",
+    "Ivory",
+    "Whalebone",
+    "Horn, Narwhal",
+    "Ambergris (fixative)",
+}
+
+CONTAINER_SUBTYPE_PREFIXES: tuple[tuple[str, str], ...] = (
+    ("backpack", "Backpack"),
+    ("back bag", "Backpack"),
+    ("belt pouch", "Pouch"),
+    ("purse", "Pouch"),
+    ("sack", "Sack"),
+    ("bag", "Sack"),
+    ("lockbox", "Chest"),
+)
+
 ROOT_ATTRS = {
     "version": "5.1",
     "dataversion": "20260124",
@@ -83,35 +369,139 @@ def add_typed_elem(parent: ET.Element, tag: str, elem_type: str, text: str) -> E
     return el
 
 
-def build_description_paragraphs(
-    item: dict,
-    pack_label: str,
-) -> list[str]:
+def resolve_container_subtype(name: str) -> str:
+    """Map a container item name to a HarnMaster3.5E container subtype, or '' if none."""
+    lowered = name.lower()
+    for prefix, subtype in CONTAINER_SUBTYPE_PREFIXES:
+        if lowered.startswith(prefix):
+            return subtype
+    return ""
+
+
+def classify_miscgear(name: str, pack_label: str) -> tuple[str, str]:
+    """Return (type, subtype) for a Foundry miscgear item."""
+    nl = name.lower()
+
+    if name in HERB_ITEMS:
+        return ("Herbs", "")
+    if name in MEDICAL_ITEMS:
+        return ("Medical", "")
+    if name in VEHICLE_COMPONENT_ITEMS:
+        return ("Vehicle Component", "")
+    if name in SPICE_ITEMS:
+        return ("Trade Goods", "Spices")
+    if name in LIGHTING_ITEMS:
+        return ("Adventuring Gear", "Lighting")
+    if name in EXTRA_PROVISIONS or (pack_label in PROVISIONS_PACKS and name not in EXCLUDED_PROVISIONS):
+        return ("Provisions", "")
+    if name in FURNISHING_GENERAL_ITEMS or name in FURNISHING_POTTER_ITEMS or name in FURNISHING_TABLEWARE_ITEMS:
+        return ("Furnishings", "")
+    if any(gw in nl for gw in GEM_KEYWORDS) and not any(m in nl for m in METALS_KEYWORDS) and "jeweler" not in nl:
+        return ("Gems", "")
+    if (
+        pack_label in {"Miner", "Timerwright", "Dyer"}
+        or name in TRADE_GOODS_RAW_ITEMS
+        or (pack_label == "Clothier" and name.startswith("Bolt of cloth"))
+        or (pack_label == "Jeweler" and any(m in nl for m in METALS_KEYWORDS + ["glass", "ivory", "bone/horn"]))
+    ):
+        return ("Trade Goods", "")
+    if name in WATERBORNE_VEHICLES:
+        return ("Waterborne Vehicles", WATERBORNE_VEHICLES[name])
+    if name in DRAWN_VEHICLES:
+        return ("Tack, Harness, And Drawn Vehicles", "Drawn Vehicle")
+    if name in TACK_AND_HARNESS_ITEMS:
+        return ("Tack, Harness, And Drawn Vehicles", "Tack & Harness")
+    if pack_label in MUSICAL_INSTRUMENT_PACKS or name in MUSICAL_INSTRUMENT_ITEMS:
+        return ("Musical Instrument", "")
+    if pack_label in NAVIGATOR_TOOLS_PACKS:
+        return ("Tools", "Navigator's Tools")
+    if name in THIEVES_TOOLS_ITEMS:
+        return ("Tools", "Thieves' Tools")
+    if name in GAMING_SET_ITEMS:
+        return ("Tools", "Gaming Set")
+    if name in ARTISAN_TOOLS_ITEMS:
+        return ("Tools", "Artisan's Tools")
+    return ("Adventuring Gear", "")
+
+
+def parse_pricing_unit(notes: str) -> tuple[str, str]:
+    """Extract a pricing unit (e.g. 'per lb.', 'per oz.') from notes.
+
+    Returns (unit_suffix, remaining_notes).
+    """
+    notes = notes.strip()
+    if not notes.startswith("per "):
+        return ("", notes)
+
+    if notes.startswith("per ct.^"):
+        return ("", notes)
+
+    # Check for compound notes like 'per ft., 1000 lb. capacity' or 'per gal., 32 hr. duration'
+    if ", " in notes:
+        unit_part, rest = notes.split(", ", 1)
+        # Unit part like 'per ft.' -> '/ ft.'
+        suffix = " / " + unit_part[4:].strip()
+        return (suffix, rest.strip())
+
+    suffix = " / " + notes[4:].strip()
+    return (suffix, "")
+
+
+def build_description_paragraphs(item: dict) -> list[str]:
     """Assemble plain-text description paragraphs for an FGU item."""
     system = item.get("system", {})
     paragraphs: list[str] = []
 
     desc = (system.get("description") or "").strip()
+    notes = (system.get("notes") or "").strip()
+
+    # Clean up typos in notes
+    notes = notes.replace("capacty", "capacity").replace("capactiy", "capacity")
+
+    # Bedroll shorthand clarification
+    if notes.lower() == "freezing":
+        notes = "Protection: suitable for freezing temperatures"
+    elif notes.lower() == "cool":
+        notes = "Protection: suitable for cool temperatures"
+
+    # Tent frame weight & dimensions combination
+    if "frame" in desc.lower() and ("capacity" in notes.lower() or "ft." in notes.lower()):
+        paragraphs.append(f"Dimensions / Specs: {notes}")
+        paragraphs.append(f"Frame: {desc}")
+        return paragraphs
+
+    # Special handling for gems priced per carat
+    if "typical weights range" in desc.lower():
+        clean_desc = desc
+        if clean_desc.lower().startswith("typical weights range"):
+            clean_desc = "Typical weight range: " + clean_desc[len("typical weights range"):].strip()
+        paragraphs.append(clean_desc)
+
+        if notes:
+            if notes == "per ct.":
+                paragraphs.append("Pricing: per carat (total price = carats × base cost)")
+            elif notes.startswith("per ct.^"):
+                exp = notes.split("^")[-1]
+                paragraphs.append(f"Pricing: per carat^{exp} (exponential value scaling by weight)")
+            else:
+                paragraphs.append(f"Notes: {notes}")
+        return paragraphs
+
     if desc:
         for line in desc.splitlines():
             line = line.strip()
             if line:
                 paragraphs.append(line)
 
-    notes = (system.get("notes") or "").strip()
     if notes:
-        paragraphs.append(f"Notes: {notes}")
-
-    if item.get("type") == "containergear":
-        cap = system.get("capacity") or {}
-        if "max" in cap and cap["max"] is not None:
-            paragraphs.append(f"Capacity: {format_number(cap['max'])} lbs")
-
-    paragraphs.append(f"Vendor: {pack_label}")
-
-    source = (system.get("source") or "").strip()
-    if source:
-        paragraphs.append(f"Source: {source}")
+        unit_suffix, remaining_notes = parse_pricing_unit(notes)
+        if notes.startswith("per ct.^"):
+            exp = notes.split("^")[-1]
+            paragraphs.append(f"Pricing: per carat^{exp} (exponential value scaling by weight)")
+        elif remaining_notes:
+            paragraphs.append(f"Notes: {remaining_notes}")
+        elif not unit_suffix:
+            paragraphs.append(f"Notes: {notes}")
 
     return paragraphs
 
@@ -140,14 +530,24 @@ def convert_item(
     add_typed_elem(item_el, "name", "string", name)
     add_typed_elem(item_el, "nonid_name", "string", name)
     add_typed_elem(item_el, "version", "string", "2024")
+    add_typed_elem(item_el, "vendor", "string", pack_label)
 
     cost_str = format_cost(system.get("value"))
+    notes = (system.get("notes") or "").strip()
+    unit_suffix, _ = parse_pricing_unit(notes)
     if cost_str:
+        if unit_suffix:
+            cost_str += unit_suffix
         add_typed_elem(item_el, "cost", "string", cost_str)
 
     weight = system.get("weight")
     if weight is not None:
-        add_typed_elem(item_el, "weight", "number", format_number(weight))
+        notes = (system.get("notes") or "").strip()
+        # Gems priced per carat have fractional carats converted to 0.0004 lbs in Foundry; set to 0 in FGU
+        if "per ct" in notes or "carat" in (system.get("description") or "").lower():
+            add_typed_elem(item_el, "weight", "number", "0")
+        else:
+            add_typed_elem(item_el, "weight", "number", format_number(weight))
 
     if foundry_type == "armorgear":
         material = (system.get("material") or "").strip()
@@ -168,16 +568,23 @@ def convert_item(
 
     elif foundry_type == "containergear":
         add_typed_elem(item_el, "type", "string", "Container")
-        add_typed_elem(item_el, "subtype", "string", pack_label)
+        container_subtype = resolve_container_subtype(name)
+        if container_subtype:
+            add_typed_elem(item_el, "subtype", "string", container_subtype)
+        cap = system.get("capacity") or {}
+        if "max" in cap and cap["max"] is not None:
+            add_typed_elem(item_el, "capacity", "string", f"{format_number(cap['max'])} lbs")
 
     elif foundry_type == "miscgear":
-        add_typed_elem(item_el, "type", "string", "Adventuring Gear")
-        add_typed_elem(item_el, "subtype", "string", pack_label)
+        item_type, item_subtype = classify_miscgear(name, pack_label)
+        add_typed_elem(item_el, "type", "string", item_type)
+        if item_subtype:
+            add_typed_elem(item_el, "subtype", "string", item_subtype)
 
     else:
         raise ValueError(f"Unsupported Foundry item type {foundry_type!r} on item {name!r}")
 
-    paragraphs = build_description_paragraphs(item, pack_label)
+    paragraphs = build_description_paragraphs(item)
     add_formatted_description(item_el, paragraphs)
 
     return item_el
