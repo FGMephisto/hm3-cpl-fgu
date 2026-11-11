@@ -15,11 +15,10 @@ Converts [toastygm/hm3-cpl](https://github.com/toastygm/hm3-cpl) (Foundry VTT HÃ
 ## Prerequisites
 
 - Python 3.9+ (standard library only, no third-party packages required)
-- Submodule initialized:
+- Clone the repository (all upstream data files and commit history are vendored directly in `upstream/hm3-cpl/` via `git subtree`):
   ```bash
-  git clone --recurse-submodules https://github.com/FGMephisto/hm3-cpl-fgu.git
+  git clone https://github.com/FGMephisto/hm3-cpl-fgu.git
   ```
-  *(Or `git submodule update --init --recursive` if already cloned.)*
 
 ## Building the Module
 
@@ -35,11 +34,38 @@ By default, this outputs `../HarnMaster3.5E_CPL.mod` (directly into `channels/Te
 python scripts/build_mod.py --output dist/HarnMaster3.5E_CPL.mod
 ```
 
-To update upstream data when `toastygm/hm3-cpl` changes:
+## Comparing & Syncing Upstream (`toastygm/hm3-cpl`)
+
+All files and commit history from `toastygm/hm3-cpl` are stored directly inside `upstream/hm3-cpl/` so the data remains preserved even if the upstream repository disappears.
+
+To check and compare against `toastygm/hm3-cpl` for changes:
 
 ```bash
-git submodule update --remote upstream/hm3-cpl
+# Check for new upstream commits and changed files
+python scripts/sync_upstream.py
+
+# Include full unified diff (optionally filter by path)
+python scripts/sync_upstream.py --diff
+python scripts/sync_upstream.py --diff --path packs/
+
+# Pull upstream updates into upstream/hm3-cpl and rebuild the .mod
+python scripts/sync_upstream.py --pull
 python scripts/build_mod.py
+```
+
+Or using `git` directly:
+
+```bash
+# One-time remote setup in a fresh clone
+git remote add upstream-hm3-cpl https://github.com/toastygm/hm3-cpl.git
+git config remote.upstream-hm3-cpl.tagOpt --no-tags
+
+# Fetch and compare against the vendored tree
+git fetch --no-tags upstream-hm3-cpl main
+git diff --stat HEAD:upstream/hm3-cpl upstream-hm3-cpl/main
+
+# Pull updates into upstream/hm3-cpl
+git subtree pull --prefix=upstream/hm3-cpl upstream-hm3-cpl main
 ```
 
 ## Attribution & License
