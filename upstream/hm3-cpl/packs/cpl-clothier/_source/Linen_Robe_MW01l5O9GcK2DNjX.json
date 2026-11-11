@@ -1,0 +1,66 @@
+{
+  "name": "Linen Robe",
+  "type": "armorgear",
+  "img": "systems/hm3/images/icons/svg/robe.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_id": "MW01l5O9GcK2DNjX",
+  "system": {
+    "notes": "",
+    "description": "",
+    "source": "",
+    "macros": {
+      "type": "script",
+      "command": ""
+    },
+    "quantity": 1,
+    "value": 41,
+    "weight": 7.9,
+    "isCarried": true,
+    "isEquipped": true,
+    "container": "on-person",
+    "arcane": {
+      "isArtifact": false,
+      "isAttuned": false,
+      "charges": -1,
+      "ego": 0
+    },
+    "material": "Cloth",
+    "armorQuality": 0,
+    "locations": [
+      "Upper Arm",
+      "Shoulder",
+      "Thorax",
+      "Abdomen",
+      "Hip",
+      "Groin",
+      "Forearm",
+      "Elbow",
+      "Thigh",
+      "Knee",
+      "Calf"
+    ],
+    "protection": {
+      "blunt": 1,
+      "edged": 1,
+      "piercing": 1,
+      "fire": 1
+    },
+    "size": 6
+  },
+  "ownership": {
+    "default": 0,
+    "di0AAKiFfyeVymgl": 3
+  },
+  "_stats": {
+    "systemId": null,
+    "systemVersion": null,
+    "coreVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!MW01l5O9GcK2DNjX"
+}

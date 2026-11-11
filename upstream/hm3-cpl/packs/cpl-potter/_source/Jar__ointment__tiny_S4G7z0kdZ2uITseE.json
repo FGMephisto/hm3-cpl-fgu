@@ -1,0 +1,44 @@
+{
+  "_id": "S4G7z0kdZ2uITseE",
+  "name": "Jar, ointment, tiny",
+  "type": "miscgear",
+  "img": "systems/hm3/images/icons/svg/miscgear.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "notes": "0.5 oz. capacity",
+    "description": "",
+    "source": "Prices & Weights",
+    "macros": {
+      "type": "script",
+      "command": ""
+    },
+    "quantity": 1,
+    "value": 0.5,
+    "weight": 0.9,
+    "isCarried": true,
+    "isEquipped": false,
+    "container": "on-person",
+    "arcane": {
+      "isArtifact": false,
+      "isAttuned": false,
+      "charges": -1,
+      "ego": 0
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "BbeJBzsLH8Onsb5m": 3
+  },
+  "_stats": {
+    "systemId": null,
+    "systemVersion": null,
+    "coreVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!S4G7z0kdZ2uITseE"
+}

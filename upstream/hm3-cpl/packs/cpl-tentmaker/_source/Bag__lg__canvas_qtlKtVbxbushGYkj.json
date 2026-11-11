@@ -1,0 +1,48 @@
+{
+  "_id": "qtlKtVbxbushGYkj",
+  "name": "Bag, lg, canvas",
+  "type": "containergear",
+  "img": "systems/hm3/images/icons/svg/sack.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "notes": "",
+    "description": "",
+    "source": "Prices & Weights",
+    "macros": {
+      "type": "script",
+      "command": ""
+    },
+    "quantity": 1,
+    "value": 20,
+    "weight": 3,
+    "isCarried": true,
+    "isEquipped": true,
+    "container": "on-person",
+    "arcane": {
+      "isArtifact": false,
+      "isAttuned": false,
+      "charges": -1,
+      "ego": 0
+    },
+    "capacity": {
+      "max": 20,
+      "value": 0
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "J9LJZfy7UDqGwKQ1": 3
+  },
+  "_stats": {
+    "systemId": null,
+    "systemVersion": null,
+    "coreVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!qtlKtVbxbushGYkj"
+}

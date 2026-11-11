@@ -1,0 +1,66 @@
+{
+  "name": "Sealskin Robe",
+  "type": "armorgear",
+  "img": "systems/hm3/images/icons/svg/robe.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_id": "mL5yeTOH5Yye4NtR",
+  "system": {
+    "notes": "",
+    "description": "",
+    "source": "",
+    "macros": {
+      "type": "script",
+      "command": ""
+    },
+    "quantity": 1,
+    "value": 395,
+    "weight": 19,
+    "isCarried": true,
+    "isEquipped": true,
+    "container": "on-person",
+    "arcane": {
+      "isArtifact": false,
+      "isAttuned": false,
+      "charges": -1,
+      "ego": 0
+    },
+    "material": "Leather",
+    "armorQuality": 0,
+    "locations": [
+      "Upper Arm",
+      "Shoulder",
+      "Thorax",
+      "Abdomen",
+      "Hip",
+      "Groin",
+      "Forearm",
+      "Elbow",
+      "Thigh",
+      "Knee",
+      "Calf"
+    ],
+    "protection": {
+      "blunt": 2,
+      "edged": 4,
+      "piercing": 3,
+      "fire": 3
+    },
+    "size": 6
+  },
+  "ownership": {
+    "default": 0,
+    "di0AAKiFfyeVymgl": 3
+  },
+  "_stats": {
+    "systemId": null,
+    "systemVersion": null,
+    "coreVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!mL5yeTOH5Yye4NtR"
+}

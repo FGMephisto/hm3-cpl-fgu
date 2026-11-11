@@ -1,0 +1,44 @@
+{
+  "_id": "SMLtcraD3g4dEh2i",
+  "name": "Tent, Ridged, large",
+  "type": "miscgear",
+  "img": "systems/hm3/images/icons/svg/miscgear.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "notes": "7 ft. x 3½ ft., 2 man capacity",
+    "description": "5½ lb. frame ",
+    "source": "Prices & Weights",
+    "macros": {
+      "type": "script",
+      "command": ""
+    },
+    "quantity": 1,
+    "value": 144,
+    "weight": 31,
+    "isCarried": true,
+    "isEquipped": false,
+    "container": "on-person",
+    "arcane": {
+      "isArtifact": false,
+      "isAttuned": false,
+      "charges": -1,
+      "ego": 0
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "BbeJBzsLH8Onsb5m": 3
+  },
+  "_stats": {
+    "systemId": null,
+    "systemVersion": null,
+    "coreVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!SMLtcraD3g4dEh2i"
+}

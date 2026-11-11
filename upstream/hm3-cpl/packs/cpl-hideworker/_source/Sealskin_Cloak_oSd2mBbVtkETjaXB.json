@@ -1,0 +1,60 @@
+{
+  "name": "Sealskin Cloak",
+  "type": "armorgear",
+  "img": "systems/hm3/images/icons/svg/armor.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_id": "oSd2mBbVtkETjaXB",
+  "system": {
+    "notes": "",
+    "description": "",
+    "source": "",
+    "macros": {
+      "type": "script",
+      "command": ""
+    },
+    "quantity": 1,
+    "value": 335,
+    "weight": 12,
+    "isCarried": true,
+    "isEquipped": true,
+    "container": "on-person",
+    "arcane": {
+      "isArtifact": false,
+      "isAttuned": false,
+      "charges": -1,
+      "ego": 0
+    },
+    "material": "Leather",
+    "armorQuality": 0,
+    "locations": [
+      "Upper Arm",
+      "Shoulder",
+      "Thorax",
+      "Abdomen",
+      "Hip"
+    ],
+    "protection": {
+      "blunt": 2,
+      "edged": 4,
+      "piercing": 3,
+      "fire": 3
+    },
+    "size": 6
+  },
+  "ownership": {
+    "default": 0,
+    "di0AAKiFfyeVymgl": 3
+  },
+  "_stats": {
+    "systemId": null,
+    "systemVersion": null,
+    "coreVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!oSd2mBbVtkETjaXB"
+}

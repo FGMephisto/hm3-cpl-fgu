@@ -1,0 +1,61 @@
+{
+  "name": "Beaver Leggings",
+  "type": "armorgear",
+  "img": "systems/hm3/images/icons/svg/leggings.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_id": "LdQ4J6WEMl6wP6fu",
+  "system": {
+    "notes": "",
+    "description": "",
+    "source": "",
+    "macros": {
+      "type": "script",
+      "command": ""
+    },
+    "quantity": 1,
+    "value": 207,
+    "weight": 8.8,
+    "isCarried": true,
+    "isEquipped": true,
+    "container": "on-person",
+    "arcane": {
+      "isArtifact": false,
+      "isAttuned": false,
+      "charges": -1,
+      "ego": 0
+    },
+    "material": "Leather",
+    "armorQuality": 0,
+    "locations": [
+      "Hip",
+      "Groin",
+      "Thigh",
+      "Knee",
+      "Calf",
+      "Foot"
+    ],
+    "protection": {
+      "blunt": 2,
+      "edged": 4,
+      "piercing": 3,
+      "fire": 3
+    },
+    "size": 6
+  },
+  "ownership": {
+    "default": 0,
+    "di0AAKiFfyeVymgl": 3
+  },
+  "_stats": {
+    "systemId": null,
+    "systemVersion": null,
+    "coreVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!LdQ4J6WEMl6wP6fu"
+}

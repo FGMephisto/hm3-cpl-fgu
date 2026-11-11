@@ -1,0 +1,58 @@
+{
+  "name": "Cloth Knee Boots",
+  "type": "armorgear",
+  "img": "systems/hm3/images/icons/svg/leather-boot.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_id": "Gvsfgd8GheLdouAl",
+  "system": {
+    "notes": "",
+    "description": "",
+    "source": "",
+    "macros": {
+      "type": "script",
+      "command": ""
+    },
+    "quantity": 1,
+    "value": 44,
+    "weight": 2.8,
+    "isCarried": true,
+    "isEquipped": true,
+    "container": "on-person",
+    "arcane": {
+      "isArtifact": false,
+      "isAttuned": false,
+      "charges": -1,
+      "ego": 0
+    },
+    "material": "Cloth",
+    "armorQuality": 0,
+    "locations": [
+      "Foot",
+      "Calf",
+      "Knee"
+    ],
+    "protection": {
+      "blunt": 1,
+      "edged": 1,
+      "piercing": 1,
+      "fire": 1
+    },
+    "size": 6
+  },
+  "ownership": {
+    "default": 0,
+    "di0AAKiFfyeVymgl": 3
+  },
+  "_stats": {
+    "systemId": null,
+    "systemVersion": null,
+    "coreVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!Gvsfgd8GheLdouAl"
+}

@@ -1,0 +1,56 @@
+{
+  "name": "Scale Halfhelm",
+  "type": "armorgear",
+  "img": "systems/hm3/images/icons/svg/helm.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_id": "DcH4XC2lWP2wXYxR",
+  "system": {
+    "notes": "",
+    "description": "",
+    "source": "",
+    "macros": {
+      "type": "script",
+      "command": ""
+    },
+    "quantity": 1,
+    "value": 20,
+    "weight": 1,
+    "isCarried": true,
+    "isEquipped": true,
+    "container": "on-person",
+    "arcane": {
+      "isArtifact": false,
+      "isAttuned": false,
+      "charges": -1,
+      "ego": 0
+    },
+    "material": "Scale",
+    "armorQuality": 0,
+    "locations": [
+      "Skull"
+    ],
+    "protection": {
+      "blunt": 5,
+      "edged": 9,
+      "piercing": 4,
+      "fire": 5
+    },
+    "size": 6
+  },
+  "ownership": {
+    "default": 0,
+    "di0AAKiFfyeVymgl": 3
+  },
+  "_stats": {
+    "systemId": null,
+    "systemVersion": null,
+    "coreVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!DcH4XC2lWP2wXYxR"
+}

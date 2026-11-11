@@ -1,0 +1,562 @@
+{
+  "id": "hm3-cpl",
+  "title": "Harn Comprehensive Price Lists",
+  "description": "Provides lists of items from the Comprehensive Price Lists on Lythia.com",
+  "version": "1.4.1",
+  "authors": [
+    {
+      "name": "Toasty",
+      "discord": "toasty#8538",
+      "flags": {}
+    }
+  ],
+  "compatibility": {
+    "minimum": "11",
+    "verified": "12.331"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "hm3",
+        "type": "system",
+        "manifest": "https://github.com/toastygm/HarnMaster-3-FoundryVTT/releases/latest/download/system.json",
+        "compatibility": {
+          "minimum": "1.4.0"
+        }
+      }
+    ]
+  },
+  "packFolders": [
+    {
+      "name": "Comprehensive Price Lists",
+      "sorting": "m",
+      "packs": [
+        "cpl-apothecary",
+        "cpl-armorer",
+        "cpl-bonecarver",
+        "cpl-chandler",
+        "cpl-clothier",
+        "cpl-dyer",
+        "cpl-glassworker",
+        "cpl-harper",
+        "cpl-hideworker",
+        "cpl-innkeeper",
+        "cpl-jeweler",
+        "cpl-lexigrapher",
+        "cpl-market-butcher",
+        "cpl-market-farmer",
+        "cpl-market-fisherman",
+        "cpl-market-greengrocer",
+        "cpl-market-miller",
+        "cpl-market-salter",
+        "cpl-mason",
+        "cpl-metalcrafter-general",
+        "cpl-metalcrafter-lia-kavair",
+        "cpl-metalcrafter-locksmith",
+        "cpl-metalcrafter-toolmaker",
+        "cpl-miner",
+        "cpl-miscellaneous",
+        "cpl-ostler",
+        "cpl-perfumer",
+        "cpl-physician",
+        "cpl-pilot",
+        "cpl-potter",
+        "cpl-ropemaker",
+        "cpl-shipwright",
+        "cpl-tentmaker",
+        "cpl-thatcher",
+        "cpl-timberwright",
+        "cpl-whaler",
+        "cpl-woodcrafter-cooper",
+        "cpl-woodcrafter-furniture",
+        "cpl-woodcrafter-general",
+        "cpl-woodcrafter-transport"
+      ]
+    }
+  ],
+  "packs": [
+    {
+      "name": "cpl-apothecary",
+      "label": "Apothecary",
+      "path": "packs/cpl-apothecary",
+      "system": "hm3",
+      "type": "Item",
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "cpl-armorer",
+      "label": "Armorer",
+      "path": "packs/cpl-armorer",
+      "system": "hm3",
+      "type": "Item",
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "cpl-bonecarver",
+      "label": "Bonecarver",
+      "path": "packs/cpl-bonecarver",
+      "system": "hm3",
+      "type": "Item",
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "cpl-chandler",
+      "label": "Chandler",
+      "path": "packs/cpl-chandler",
+      "system": "hm3",
+      "type": "Item",
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "cpl-clothier",
+      "label": "Clothier",
+      "path": "packs/cpl-clothier",
+      "system": "hm3",
+      "type": "Item",
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "cpl-dyer",
+      "label": "Dyer",
+      "path": "packs/cpl-dyer",
+      "system": "hm3",
+      "type": "Item",
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "cpl-glassworker",
+      "label": "Glassworker",
+      "path": "packs/cpl-glassworker",
+      "system": "hm3",
+      "type": "Item",
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "cpl-harper",
+      "label": "Harper",
+      "path": "packs/cpl-harper",
+      "system": "hm3",
+      "type": "Item",
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "cpl-hideworker",
+      "label": "Hideworker",
+      "path": "packs/cpl-hideworker",
+      "system": "hm3",
+      "type": "Item",
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "cpl-innkeeper",
+      "label": "Innkeeper",
+      "path": "packs/cpl-innkeeper",
+      "system": "hm3",
+      "type": "Item",
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "cpl-jeweler",
+      "label": "Jeweler",
+      "path": "packs/cpl-jeweler",
+      "system": "hm3",
+      "type": "Item",
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "cpl-lexigrapher",
+      "label": "Lexigrapher",
+      "path": "packs/cpl-lexigrapher",
+      "system": "hm3",
+      "type": "Item",
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "cpl-market-butcher",
+      "label": "Market Butcher",
+      "path": "packs/cpl-market-butcher",
+      "system": "hm3",
+      "type": "Item",
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "cpl-market-farmer",
+      "label": "Market Farmer",
+      "path": "packs/cpl-market-farmer",
+      "system": "hm3",
+      "type": "Item",
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "cpl-market-fisherman",
+      "label": "Market Fisherman",
+      "path": "packs/cpl-market-fisherman",
+      "system": "hm3",
+      "type": "Item",
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "cpl-market-greengrocer",
+      "label": "Market Greengrocer",
+      "path": "packs/cpl-market-greengrocer",
+      "system": "hm3",
+      "type": "Item",
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "cpl-market-miller",
+      "label": "Market Miller",
+      "path": "packs/cpl-market-miller",
+      "system": "hm3",
+      "type": "Item",
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "cpl-market-salter",
+      "label": "Market Salter",
+      "path": "packs/cpl-market-salter",
+      "system": "hm3",
+      "type": "Item",
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "cpl-mason",
+      "label": "Mason",
+      "path": "packs/cpl-mason",
+      "system": "hm3",
+      "type": "Item",
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "cpl-metalcrafter-general",
+      "label": "Metalcrafter - General",
+      "path": "packs/cpl-metalcrafter-general",
+      "system": "hm3",
+      "type": "Item",
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "cpl-metalcrafter-lia-kavair",
+      "label": "Metalcrafter - Lia-Kavair",
+      "path": "packs/cpl-metalcrafter-lia-kavair",
+      "system": "hm3",
+      "type": "Item",
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "cpl-metalcrafter-locksmith",
+      "label": "Metalcrafter - Locksmith",
+      "path": "packs/cpl-metalcrafter-locksmith",
+      "system": "hm3",
+      "type": "Item",
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "cpl-metalcrafter-toolmaker",
+      "label": "Metalcrafter - Toolmaker",
+      "path": "packs/cpl-metalcrafter-toolmaker",
+      "system": "hm3",
+      "type": "Item",
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "cpl-miner",
+      "label": "Miner",
+      "path": "packs/cpl-miner",
+      "system": "hm3",
+      "type": "Item",
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "cpl-miscellaneous",
+      "label": "Miscellaneous",
+      "path": "packs/cpl-miscellaneous",
+      "system": "hm3",
+      "type": "Item",
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "cpl-ostler",
+      "label": "Ostler",
+      "path": "packs/cpl-ostler",
+      "system": "hm3",
+      "type": "Item",
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "cpl-perfumer",
+      "label": "Perfumer",
+      "path": "packs/cpl-perfumer",
+      "system": "hm3",
+      "type": "Item",
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "cpl-physician",
+      "label": "Physician",
+      "path": "packs/cpl-physician",
+      "system": "hm3",
+      "type": "Item",
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "cpl-pilot",
+      "label": "Pilot",
+      "path": "packs/cpl-pilot",
+      "system": "hm3",
+      "type": "Item",
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "cpl-potter",
+      "label": "Potter",
+      "path": "packs/cpl-potter",
+      "system": "hm3",
+      "type": "Item",
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "cpl-ropemaker",
+      "label": "Ropemaker",
+      "path": "packs/cpl-ropemaker",
+      "system": "hm3",
+      "type": "Item",
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "cpl-shipwright",
+      "label": "Shipwright",
+      "path": "packs/cpl-shipwright",
+      "system": "hm3",
+      "type": "Item",
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "cpl-tentmaker",
+      "label": "Tentmaker",
+      "path": "packs/cpl-tentmaker",
+      "system": "hm3",
+      "type": "Item",
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "cpl-thatcher",
+      "label": "Thatcher",
+      "path": "packs/cpl-thatcher",
+      "system": "hm3",
+      "type": "Item",
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "cpl-timberwright",
+      "label": "Timerwright",
+      "path": "packs/cpl-timberwright",
+      "system": "hm3",
+      "type": "Item",
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "cpl-whaler",
+      "label": "Whaler",
+      "path": "packs/cpl-whaler",
+      "system": "hm3",
+      "type": "Item",
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "cpl-woodcrafter-cooper",
+      "label": "Woodcrafter - Cooper",
+      "path": "packs/cpl-woodcrafter-cooper",
+      "system": "hm3",
+      "type": "Item",
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "cpl-woodcrafter-furniture",
+      "label": "Woodcrafter - Furniture",
+      "path": "packs/cpl-woodcrafter-furniture",
+      "system": "hm3",
+      "type": "Item",
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "cpl-woodcrafter-general",
+      "label": "Woodcrafter - General",
+      "path": "packs/cpl-woodcrafter-general",
+      "system": "hm3",
+      "type": "Item",
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "cpl-woodcrafter-transport",
+      "label": "Woodcrafter - Transport",
+      "path": "packs/cpl-woodcrafter-transport",
+      "system": "hm3",
+      "type": "Item",
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "url": "https://github.com/toastygm/hm3-cpl/",
+  "manifest": "https://github.com/toastygm/hm3-cpl/releases/latest/download/module.json",
+  "download": "https://github.com/toastygm/hm3-cpl/releases/download/v1.4.1/module.zip"
+}

@@ -1,0 +1,57 @@
+{
+  "name": "Long Ring Cowl",
+  "type": "armorgear",
+  "img": "systems/hm3/images/icons/svg/hood.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_id": "kGrE4HUMQOKBEP8d",
+  "system": {
+    "notes": "",
+    "description": "",
+    "source": "",
+    "macros": {
+      "type": "script",
+      "command": ""
+    },
+    "quantity": 1,
+    "value": 120,
+    "weight": 4,
+    "isCarried": true,
+    "isEquipped": true,
+    "container": "on-person",
+    "arcane": {
+      "isArtifact": false,
+      "isAttuned": false,
+      "charges": -1,
+      "ego": 0
+    },
+    "material": "Ring",
+    "armorQuality": 0,
+    "locations": [
+      "Skull",
+      "Neck"
+    ],
+    "protection": {
+      "blunt": 3,
+      "edged": 6,
+      "piercing": 4,
+      "fire": 3
+    },
+    "size": 6
+  },
+  "ownership": {
+    "default": 0,
+    "di0AAKiFfyeVymgl": 3
+  },
+  "_stats": {
+    "systemId": null,
+    "systemVersion": null,
+    "coreVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!kGrE4HUMQOKBEP8d"
+}

@@ -1,0 +1,61 @@
+{
+  "name": "Mail Habergeon",
+  "type": "armorgear",
+  "img": "systems/hm3/images/icons/svg/chain-mail.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_id": "Vdb5GbJS2J23nCmf",
+  "system": {
+    "notes": "",
+    "description": "",
+    "source": "",
+    "macros": {
+      "type": "script",
+      "command": ""
+    },
+    "quantity": 1,
+    "value": 345,
+    "weight": 25,
+    "isCarried": true,
+    "isEquipped": true,
+    "container": "on-person",
+    "arcane": {
+      "isArtifact": false,
+      "isAttuned": false,
+      "charges": -1,
+      "ego": 0
+    },
+    "material": "Mail",
+    "armorQuality": 0,
+    "locations": [
+      "Shoulder",
+      "Thorax",
+      "Abdomen",
+      "Hip",
+      "Groin",
+      "Thigh"
+    ],
+    "protection": {
+      "blunt": 2,
+      "edged": 8,
+      "piercing": 5,
+      "fire": 1
+    },
+    "size": 6
+  },
+  "ownership": {
+    "default": 0,
+    "di0AAKiFfyeVymgl": 3
+  },
+  "_stats": {
+    "systemId": null,
+    "systemVersion": null,
+    "coreVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!Vdb5GbJS2J23nCmf"
+}

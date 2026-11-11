@@ -1,0 +1,62 @@
+{
+  "name": "Scale Short Hauberk",
+  "type": "armorgear",
+  "img": "systems/hm3/images/icons/svg/scale-mail.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_id": "2C6ybkmY2wgUSfk3",
+  "system": {
+    "notes": "",
+    "description": "",
+    "source": "",
+    "macros": {
+      "type": "script",
+      "command": ""
+    },
+    "quantity": 1,
+    "value": 570,
+    "weight": 45.5,
+    "isCarried": true,
+    "isEquipped": true,
+    "container": "on-person",
+    "arcane": {
+      "isArtifact": false,
+      "isAttuned": false,
+      "charges": -1,
+      "ego": 0
+    },
+    "material": "Scale",
+    "armorQuality": 0,
+    "locations": [
+      "Elbow",
+      "Upper Arm",
+      "Shoulder",
+      "Thorax",
+      "Abdomen",
+      "Hip",
+      "Groin"
+    ],
+    "protection": {
+      "blunt": 5,
+      "edged": 9,
+      "piercing": 4,
+      "fire": 5
+    },
+    "size": 6
+  },
+  "ownership": {
+    "default": 0,
+    "di0AAKiFfyeVymgl": 3
+  },
+  "_stats": {
+    "systemId": null,
+    "systemVersion": null,
+    "coreVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!2C6ybkmY2wgUSfk3"
+}
