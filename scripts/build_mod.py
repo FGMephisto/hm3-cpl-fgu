@@ -694,9 +694,12 @@ def main() -> int:
     total_validated = validate_xml(client_bytes)
 
     args.output.parent.mkdir(parents=True, exist_ok=True)
+    thumb_path = repo_root / "assets" / "thumbnail.png"
     with zipfile.ZipFile(args.output, "w", compression=zipfile.ZIP_DEFLATED) as zf:
         zf.writestr("definition.xml", definition_bytes)
         zf.writestr("client.xml", client_bytes)
+        if thumb_path.is_file():
+            zf.write(thumb_path, "thumbnail.png")
 
     print(
         f"Built {args.output} from hm3-cpl v{upstream_version}: "
