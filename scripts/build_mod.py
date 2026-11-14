@@ -329,6 +329,160 @@ CONTAINER_SUBTYPE_PREFIXES: tuple[tuple[str, str], ...] = (
     ("lockbox", "Chest"),
 )
 
+HORSE_COMMON_NOTES = (
+    "Average selling price of a trained steed; untrained yearlings cost roughly half price, "
+    "superb horses up to double. Load Rating (Str × 8) is the weight in lbs the horse can carry "
+    "without encumbrance penalty (approx. 50 lbs of riding tack before rider mounts)."
+)
+
+# Supplemental items not present in upstream toastygm/hm3-cpl packs, keyed by pack label.
+SUPPLEMENTAL_ITEMS: dict[str, list[dict]] = {
+    "Ostler": [
+        {
+            "name": "Donkey",
+            "type": "mount",
+            "system": {
+                "value": 420,
+                "weight": 600,
+                "subtype": "Draft Animal",
+                "capacity": 232,
+                "speed": "40",
+                "description": (
+                    "Donkeys originated in the steppes of central Lythia and are sturdy, long-lived, "
+                    "and disease-resistant animals capable of surviving long periods with reduced food "
+                    "or water. Brave and clever, though stubborn, they are commonly used as pack animals "
+                    "or to protect sheep flocks.\n"
+                    "Attributes: STR 29, STA 13, AGL 12, EYE 16, HRG 20, SML 18, INT 6, AUR 8, WIL 12, INI 60, END 18, MOV 40, DGE 60\n"
+                    "Skills: Trample 60/7b, Bite 48/2p, Awareness 72, Jumping 72, Stealth 60, Swimming 48 | Natural Armour: B4 E3 P1 F3 (except eyes)"
+                ),
+                "notes": (
+                    "Load Rating (Str × 8) is the weight in lbs the donkey can carry without "
+                    "encumbrance penalty. Mules (offspring of male donkey and female horse) and "
+                    "hinnies (offspring of male horse and female donkey) are sterile."
+                ),
+            },
+        },
+        {
+            "name": "Horse, Chelni",
+            "type": "mount",
+            "system": {
+                "value": 420,
+                "weight": 700,
+                "subtype": "Mount",
+                "capacity": 216,
+                "speed": "40",
+                "description": (
+                    "A small horse, indigenous to Hârn, bred by the Chelni to carry their warriors "
+                    "swiftly over rugged country. Distinguished by a running walk, called the hosk, "
+                    "which can reach speeds of sixteen leagues per hour. Although strong and fast, "
+                    "the Chelni is too small to be a warhorse for a mounted knight.\n"
+                    "Attributes: STR 27, STA 10, AGL 13, EYE 16, HRG 18, SML 18, INT 4, AUR 8, WIL 10, INI 55, END 16, MOV 40, DGE 65\n"
+                    "Skills: Trample 60/7b, Awareness 68 | Natural Armour: B4 E3 P1 F3 (except eyes)"
+                ),
+                "notes": HORSE_COMMON_NOTES,
+            },
+        },
+        {
+            "name": "Horse, Hacherdad",
+            "type": "mount",
+            "system": {
+                "value": 600,
+                "weight": 1500,
+                "subtype": "Mount",
+                "capacity": 288,
+                "speed": "38",
+                "description": (
+                    "Originated in the evergreen hardwood forests bordering the eastern Venarian Sea. "
+                    "Distinguished by a long mane and tail, Hacherdads have uncanny hearing and are "
+                    "highly prized by nobles as mounts for hunting. Although more skittish than Reksyni, "
+                    "they make good warhorses unless abused.\n"
+                    "Attributes: STR 36, STA 11, AGL 11, EYE 15, HRG 20, SML 18, INT 4, AUR 8, WIL 10, INI 50, END 19, MOV 38, DGE 55\n"
+                    "Skills: Trample 55/9b, Awareness 72 | Natural Armour: B4 E3 P1 F3 (except eyes)"
+                ),
+                "notes": HORSE_COMMON_NOTES,
+            },
+        },
+        {
+            "name": "Horse, Hodiri",
+            "type": "mount",
+            "system": {
+                "value": 450,
+                "weight": 800,
+                "subtype": "Mount",
+                "capacity": 224,
+                "speed": "42",
+                "description": (
+                    "Related to the Chelni, the Hodiri horse is taller and faster, and does not gallop "
+                    "with the unique hosk gait of the Chelni horse. Hodiri tribesmen use them as warhorses "
+                    "and they are popular with ostlers seeking to add speed and endurance to their palfreys.\n"
+                    "Attributes: STR 28, STA 11, AGL 12, EYE 16, HRG 18, SML 19, INT 4, AUR 7, WIL 11, INI 55, END 17, MOV 42, DGE 60\n"
+                    "Skills: Trample 60/7b, Awareness 72 | Natural Armour: B4 E3 P1 F3 (except eyes)"
+                ),
+                "notes": HORSE_COMMON_NOTES,
+            },
+        },
+        {
+            "name": "Horse, Khanset",
+            "type": "mount",
+            "system": {
+                "value": 360,
+                "weight": 1000,
+                "subtype": "Mount",
+                "capacity": 240,
+                "speed": "45",
+                "description": (
+                    "The “King of Horses” originated on the great plains of central Lythia. They are "
+                    "fearless and extremely protective of their owners, a natural disposition that has been "
+                    "enhanced through breeding. They are too light to easily bear the weight of a heavily "
+                    "armoured warrior, but are superb mounts for light cavalry and extremely popular as palfreys.\n"
+                    "Attributes: STR 30, STA 9, AGL 13, EYE 17, HRG 19, SML 19, INT 5, AUR 9, WIL 12, INI 60, END 17, MOV 45, DGE 65\n"
+                    "Skills: Trample 65/8b, Awareness 72 | Natural Armour: B4 E3 P1 F3 (except eyes)"
+                ),
+                "notes": HORSE_COMMON_NOTES,
+            },
+        },
+        {
+            "name": "Horse, Lankum",
+            "type": "mount",
+            "system": {
+                "value": 480,
+                "weight": 1200,
+                "subtype": "Mount",
+                "capacity": 256,
+                "speed": "40",
+                "description": (
+                    "Originating in the Quarphor region of Lythia, the Lankum are a light-boned, strong "
+                    "steed, popular as a palfrey or light charger. Distantly related to the Reksyni, the "
+                    "Lankum is lighter and faster than its cousin. Half of all Lankums are “painted horses,” "
+                    "usually shades of brown and white.\n"
+                    "Attributes: STR 32, STA 10, AGL 12, EYE 16, HRG 18, SML 20, INT 4, AUR 7, WIL 11, INI 55, END 18, MOV 40, DGE 60\n"
+                    "Skills: Trample 60/8b, Awareness 72 | Natural Armour: B4 E3 P1 F3 (except eyes)"
+                ),
+                "notes": HORSE_COMMON_NOTES,
+            },
+        },
+        {
+            "name": "Horse, Reksyni",
+            "type": "mount",
+            "system": {
+                "value": 800,
+                "weight": 1800,
+                "subtype": "Mount",
+                "capacity": 320,
+                "speed": "36",
+                "description": (
+                    "A large and sturdy breed, known for rugged countenance, size, and endurance. Fearless "
+                    "and loyal, the Reksyni is the most popular warhorse found in feudal cultures that favor "
+                    "heavy and medium cavalry. They are extremely popular in Hârn.\n"
+                    "Attributes: STR 40, STA 12, AGL 11, EYE 16, HRG 17, SML 20, INT 5, AUR 8, WIL 12, INI 60, END 21, MOV 36, DGE 55\n"
+                    "Skills: Trample 55/10b, Awareness 72 | Natural Armour: B4 E3 P1 F3 (except eyes)"
+                ),
+                "notes": HORSE_COMMON_NOTES,
+            },
+        },
+    ],
+}
+
 ROOT_ATTRS = {
     "version": "5.1",
     "dataversion": "20260124",
@@ -581,6 +735,20 @@ def convert_item(
         if item_subtype:
             add_typed_elem(item_el, "subtype", "string", item_subtype)
 
+    elif foundry_type == "mount":
+        add_typed_elem(item_el, "type", "string", "Mounts and Other Animals")
+        mount_subtype = (system.get("subtype") or "Mount").strip()
+        if mount_subtype:
+            add_typed_elem(item_el, "subtype", "string", mount_subtype)
+        load_cap = system.get("capacity")
+        if load_cap is not None:
+            cap_str = f"{format_number(load_cap)} lbs"
+            add_typed_elem(item_el, "capacity", "string", cap_str)
+            add_typed_elem(item_el, "carryingcapacity", "string", cap_str)
+        speed = (system.get("speed") or "").strip()
+        if speed:
+            add_typed_elem(item_el, "speed", "string", speed)
+
     else:
         raise ValueError(f"Unsupported Foundry item type {foundry_type!r} on item {name!r}")
 
@@ -640,6 +808,7 @@ def build_client_xml(upstream_dir: Path) -> tuple[bytes, Counter[str], int]:
             line for line in pack_file.read_text(encoding="utf-8").splitlines() if line.strip()
         ]
         records = [json.loads(line) for line in lines]
+        records.extend(SUPPLEMENTAL_ITEMS.get(pack_label, []))
         records.sort(key=lambda r: (r.get("name") or "").lower())
 
         for rec in records:
